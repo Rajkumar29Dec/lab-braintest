@@ -1,13 +1,5 @@
 package controller;
-
-import java.io.IOException;
-
-import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.*;
 
 
 // Do not edit or modify this class unless required.
@@ -43,7 +35,7 @@ public class PersonalityViewController extends HttpServlet {
 		// The value returned from the method is of type string.
 		// Store the String returned in a string literal called as message
 				
-		/* Un the below lines to test your code l
+		Un the below lines to test your code l
 
 		request.setAttribute("message", message);
 		
@@ -62,7 +54,7 @@ public class PersonalityViewController extends HttpServlet {
 				rd.forward(request, response);
 			}
 		
-		}*/
+		}
 		}
 	}
 
